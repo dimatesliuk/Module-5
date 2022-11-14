@@ -5,22 +5,22 @@ pipeline {
 
       stage('Addtition testing') {
         steps{      
-          bat 'python test_addition.py'
+          bat 'pytest test_addition.py'
         }
         }
       stage('Division testing') {
         steps{      
-          bat 'python test_division.py'
+          bat 'pytest test_division.py'
         }
         }
       stage('Multiplication testing') {
         steps{      
-          bat 'python test_multiplication.py'
+          bat 'pytest test_multiplication.py'
         }
         }
       stage('Subtraction testing') {
         steps{      
-          bat 'python test_subtraction.py'
+          bat 'pytest test_subtraction.py'
         }
         }
 
