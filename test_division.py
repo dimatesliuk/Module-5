@@ -1,5 +1,6 @@
-from calculator import divide
 import pytest
+
+from calculator import divide
 
 
 def test_divide():

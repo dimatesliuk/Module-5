@@ -1,5 +1,7 @@
-from calculator import add
 import pytest
+
+from calculator import add
+
 
 
 def test_add():

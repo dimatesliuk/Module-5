@@ -1,5 +1,6 @@
-from calculator import multiply
 import pytest
+
+from calculator import multiply
 
 
 def test_multiply():

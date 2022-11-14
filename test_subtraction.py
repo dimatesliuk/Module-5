@@ -1,5 +1,6 @@
-from calculator import subtract
 import pytest
+
+from calculator import subtract
 
 
 def test_subtract_positive():
