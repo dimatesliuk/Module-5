@@ -1,4 +1,4 @@
-from src.calculator import multiply
+from calculator import multiply
 import pytest
 
 

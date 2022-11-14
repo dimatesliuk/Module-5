@@ -1,4 +1,4 @@
-from src.calculator import divide
+from calculator import divide
 import pytest
 
 
