@@ -7,13 +7,16 @@ pipeline {
         steps{      
           bat 'python test_addition.py'
         }
+        }
       stage('Division testing') {
         steps{      
           bat 'python test_division.py'
         }
+        }
       stage('Multiplication testing') {
         steps{      
           bat 'python test_multiplication.py'
+        }
         }
       stage('Subtraction testing') {
         steps{      
